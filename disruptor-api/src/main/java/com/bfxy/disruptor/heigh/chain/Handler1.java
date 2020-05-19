@@ -12,7 +12,7 @@ public class Handler1 implements EventHandler<Trade>, WorkHandler<Trade> {
 
   //WorkHandler
   public void onEvent(Trade event) throws Exception {
-    System.err.println("handler 1 : SET NAME");
+    System.err.println(Thread.currentThread().getName() + ": handler 1 : SET NAME");
     Thread.sleep(1000);
     event.setName("H1");
   }
