@@ -4,24 +4,24 @@ import io.netty.channel.ChannelHandlerContext;
 
 public class TranslatorDataWapper {
 
-	private TranslatorData data;
-	
-	private ChannelHandlerContext ctx;
+  private TranslatorData data;
 
-	public TranslatorData getData() {
-		return data;
-	}
+  private ChannelHandlerContext ctx;
 
-	public void setData(TranslatorData data) {
-		this.data = data;
-	}
+  public TranslatorData getData() {
+    return data;
+  }
 
-	public ChannelHandlerContext getCtx() {
-		return ctx;
-	}
+  public void setData(TranslatorData data) {
+    this.data = data;
+  }
 
-	public void setCtx(ChannelHandlerContext ctx) {
-		this.ctx = ctx;
-	}
-	
+  public ChannelHandlerContext getCtx() {
+    return ctx;
+  }
+
+  public void setCtx(ChannelHandlerContext ctx) {
+    this.ctx = ctx;
+  }
+
 }
